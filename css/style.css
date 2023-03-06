@@ -1,0 +1,25 @@
+body {
+	 background:burlywood;
+	 /* font-size: 16px;
+	 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+	 font: 16px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Avatarka{
+	width: 200px;
+	border-radius: 50%;
+	box-shadow: 4px 4px 14px #caa03d;
+}
+.info p {
+	color: blue;
+	font-style: italic;
+}
+
+.container {
+	max-width: 750px;
+	margin: auto;
+}
+
+.social {
+	background: green;
+	border: 5px solid red;
+}
