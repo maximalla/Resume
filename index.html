@@ -8,38 +8,39 @@
 <body>
 	<div class="container">
 		<div class="info">
-		<img src="images/Avatar.jpg" alt="Аватарка" class="Avatarka"  >
-		<h1>Шпонтак Максим</h1>
-		<p>Я вчитель інформатики в <a href="https://www.facebook.com/people/%D0%92%D1%83%D1%87%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0-%D0%B3%D1%96%D0%BC%D0%BD%D0%B0%D0%B7%D1%96%D1%8F-%D0%9C%D1%96%D0%B6%D0%B3%D1%96%D1%80%D1%81%D1%8C%D0%BA%D0%BE%D1%97-%D1%81%D0%B5%D0%BB%D0%B8%D1%89%D0%BD%D0%BE%D1%97-%D1%80%D0%B0%D0%B4%D0%B8/100078740501515/?paipv=0&eav=AfY_MCLQXuuv8Pi-ISVaItrjP5i5D73nasAzaEiBGcHkLJ6qsRU7jPzk0Na8LGYM7r8&_rdr" target="_blank">Вучківській гімназії</a></p>
-		<p>Мені подобається грати в комп'ютерні ігри, переглядати стріми та програмувати.</p>
-		
-		</div>
-		<hr>
-		<div class="social">
-			<h2>Мої соціальні мережі</h2>
-			<ul type="square">
-				<li><a href="https://t.me/maximalla" target="_blank">Telegram</a></li>
-				<li><a href="https://www.instagram.com/maximallaololo" target="_blank">Instagram</a></li>
-		</ul>
+			<img src="images/Avatar.jpg" alt="Аватарка" class="Avatarka"  >
+			
+			<div class="info-text">
+				<h1>Шпонтак Максим</h1>
+
+				<p>Я вчитель інформатики в <a href="https://www.facebook.com/people/%D0%92%D1%83%D1%87%D0%BA%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0-%D0%B3%D1%96%D0%BC%D0%BD%D0%B0%D0%B7%D1%96%D1%8F-%D0%9C%D1%96%D0%B6%D0%B3%D1%96%D1%80%D1%81%D1%8C%D0%BA%D0%BE%D1%97-%D1%81%D0%B5%D0%BB%D0%B8%D1%89%D0%BD%D0%BE%D1%97-%D1%80%D0%B0%D0%B4%D0%B8/100078740501515/?paipv=0&eav=AfY_MCLQXuuv8Pi-ISVaItrjP5i5D73nasAzaEiBGcHkLJ6qsRU7jPzk0Na8LGYM7r8&_rdr" target="_blank">Вучківській гімназії</a></p>
+				<p>Мені подобається грати в комп'ютерні ігри, переглядати стріми та програмувати.</p>
+
+				<h4>Мої соціальні мережі</h4>
+				
+				<a href="https://t.me/maximalla" target="_blank">Telegram</a>
+				|
+				<a href="https://www.instagram.com/maximallaololo" target="_blank">Instagram</a>
+				|
+				<a href="http://twitter.com/MaksimSpontak" target="_blank">Twitter</a>
+			</div>
 		</div>
 
-		<div class="hobbies">
+
+
+		<div class="card bg-yellow">
 			<h2>Мої хоббі</h2>
-				<ol>
+				<ol class="list">
 					<li>Комп'ютерні ігри</li>
 					<li>Технології</li>
 					<li>Коти</li>
 				</ol>
 		</div>
 
-		<div class="exp">
+		<div class="card bg-green">
 			<h2>Досвід роботи</h2>
-			<table border="2">
-				<tr>
-					<th>Рік</th>
-					<th>Посада</th>
-					<th>Компанія</th>
-				</tr>
+			<table class="table">
+				
 				<tr>
 					<td>2018 - 2018</td>
 					<td>Кухар гарячого цеху</td>
@@ -51,32 +52,53 @@
 					<td>Деревообробний цех</td>
 				</tr>
 				<tr>
-					<td>2021 - 2023</td>
+					<td>2021 - now</td>
 					<td>Вчитель інформатики</td>
 					<td>Вучківська гімназія</td>
 				</tr>
 			</table>
 		</div>
 
-		<h2>Мої улюблені ігри</h2>
-		<a href="my games.html">Список ігор</a>
+		<div class="card bg-red">
+			<h2>Мої улюблені ігри</h2>
+		
+			<ul class="link-list">
+				<li><a href="https://www.factorio.com/">Factorio </a></li>
+				<li><a href="https://www.minecraft.net/">Minecraft </a></li>
+				<li><a href="https://hearthstone.blizzard.com/">Hearthstone </a></li>
+				<li><a href="http://battlebrothersgame.com/">Battle Brothers </a></li>
+				<li><a href="https://wikipedia.org/wiki/Gothic_3">Gothic 3 </a></li>
+			</ul>
 
-		<h2>Зв'язатися зі мною</h2>
-		<form action="/">
-			<label for="name">Введіть ім'я:</label>
-			<input type="text" id="name" placeholder="Ваше ім'я...">
-			<br>
-			<label for="email">Введіть ваш Email:</label>
-			<input type="email" id="email" placeholder="Ваш Email...">
-			<br>
-			<label for="message">Ваше повідомлення:</label>
-			<br>
-			<textarea name="" id="message" cols="30" rows="10"></textarea>
-			<br>
-			<input type="submit">
-		</form>
+		</div>
+		<div class="contact">
+			<h2>Зв'язатися зі мною</h2>
+			<form action="/">
+				<div class="row">
+					<div class="form-group">
+						<label for="name">Введіть ім'я:</label>
+						<input type="text" id="name" placeholder="Ваше ім'я...">
+					</div>
+					<div class="form-group">
+						<label for="email">Введіть ваш email:</label>
+						<input type="email" id="email" placeholder="Ваш email...">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="message">Ваше повідомлення:</label>
+					<textarea name="" id="message" cols="30" rows="5"></textarea>
+				</div>
+				<input class="btn" type="submit">
+			</form>
+			</div>
 
-	</div>
+			<div class="position">
+				<div class="box"></div>
+			</div>
+
+		</div>
+
+		
 
 	<div style="margin-bottom: 500px;"></div>
 </body>
